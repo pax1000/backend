@@ -1,0 +1,7 @@
+seleniumbase
+fastapi
+uvicorn[standard]
+gunicorn
+python-dotenv
+thefuzz
+mysql-connector-python
