@@ -10,7 +10,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://127.0.0.1:3000",  # for local frontend dev
-        "https://egypt-tech-finder.vercel.app/"  # for production Netlify
+        "https://egypt-tech-finder.vercel.app"  # for production vercel
     ],
     allow_credentials=True,
     allow_methods=["*"],
