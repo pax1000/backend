@@ -6,6 +6,8 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
+print("✅ FastAPI app instance created")
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -17,18 +19,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
-
-
+@app.get("/")
+def sanity_check():
+    return {"status": "running"}
 
 @app.get("/search/{product}")
-def search(product:str):
+def search(product: str):
     return main_processing(product)
-    
-
 
 @app.get("/trending")
 def trending():
     return get_most_searched()
-
-
