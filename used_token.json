@@ -1,0 +1,1160 @@
+[
+    {
+        "token": "CPU",
+        "count": 9,
+        "inputs": [
+            {
+                "term": "am5",
+                "count": 1
+            },
+            {
+                "term": "am4",
+                "count": 0
+            },
+            {
+                "term": "lga1700",
+                "count": 1
+            },
+            {
+                "term": "7700",
+                "count": 1
+            },
+            {
+                "term": "7800",
+                "count": 1
+            },
+            {
+                "term": "12400",
+                "count": 1
+            },
+            {
+                "term": "12700",
+                "count": 1
+            },
+            {
+                "term": "ryzen",
+                "count": 5
+            },
+            {
+                "term": "intel",
+                "count": 0
+            },
+            {
+                "term": "amd",
+                "count": 0
+            },
+            {
+                "term": "x3d",
+                "count": 0
+            },
+            {
+                "term": "f",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "token": "Motherboard",
+        "count": 35,
+        "inputs": [
+            {
+                "term": "am5",
+                "count": 1
+            },
+            {
+                "term": "am4",
+                "count": 0
+            },
+            {
+                "term": "lga1700",
+                "count": 1
+            },
+            {
+                "term": "b650",
+                "count": 1
+            },
+            {
+                "term": "x670",
+                "count": 1
+            },
+            {
+                "term": "b550",
+                "count": 1
+            },
+            {
+                "term": "z690",
+                "count": 0
+            },
+            {
+                "term": "h610",
+                "count": 0
+            },
+            {
+                "term": "b",
+                "count": 1
+            },
+            {
+                "term": "x",
+                "count": 15
+            },
+            {
+                "term": "z",
+                "count": 5
+            },
+            {
+                "term": "h",
+                "count": 0
+            }
+        ]
+    },
+    {
+        "token": "GPU",
+        "count": 23,
+        "inputs": [
+            {
+                "term": "rtx",
+                "count": 2
+            },
+            {
+                "term": "rx",
+                "count": 0
+            },
+            {
+                "term": "nvidia",
+                "count": 0
+            },
+            {
+                "term": "amd",
+                "count": 0
+            },
+            {
+                "term": "ti",
+                "count": 1
+            },
+            {
+                "term": "super",
+                "count": 0
+            },
+            {
+                "term": "4070",
+                "count": 4
+            },
+            {
+                "term": "4070 ti",
+                "count": 4
+            },
+            {
+                "term": "4070 super",
+                "count": 8
+            },
+            {
+                "term": "4080",
+                "count": 0
+            },
+            {
+                "term": "4080 super",
+                "count": 0
+            },
+            {
+                "term": "4090",
+                "count": 5
+            },
+            {
+                "term": "4060",
+                "count": 0
+            },
+            {
+                "term": "4060 ti",
+                "count": 3
+            },
+            {
+                "term": "4050",
+                "count": 1
+            },
+            {
+                "term": "3060",
+                "count": 0
+            },
+            {
+                "term": "3060 ti",
+                "count": 3
+            },
+            {
+                "term": "3070",
+                "count": 1
+            },
+            {
+                "term": "3070 ti",
+                "count": 4
+            },
+            {
+                "term": "3080",
+                "count": 0
+            },
+            {
+                "term": "3080 ti",
+                "count": 3
+            },
+            {
+                "term": "3090",
+                "count": 0
+            },
+            {
+                "term": "3090 ti",
+                "count": 3
+            },
+            {
+                "term": "3050",
+                "count": 1
+            },
+            {
+                "term": "6600",
+                "count": 0
+            },
+            {
+                "term": "6700",
+                "count": 1
+            },
+            {
+                "term": "6800",
+                "count": 0
+            },
+            {
+                "term": "6900",
+                "count": 0
+            }
+        ]
+    },
+    {
+        "token": "Cooler",
+        "count": 3,
+        "inputs": [
+            {
+                "term": "air",
+                "count": 0
+            },
+            {
+                "term": "liquid",
+                "count": 0
+            },
+            {
+                "term": "aio",
+                "count": 0
+            },
+            {
+                "term": "tower",
+                "count": 0
+            },
+            {
+                "term": "low profile",
+                "count": 0
+            },
+            {
+                "term": "120mm",
+                "count": 0
+            },
+            {
+                "term": "240mm",
+                "count": 0
+            },
+            {
+                "term": "280mm",
+                "count": 0
+            },
+            {
+                "term": "360mm",
+                "count": 0
+            },
+            {
+                "term": "noctua",
+                "count": 0
+            },
+            {
+                "term": "corsair",
+                "count": 0
+            },
+            {
+                "term": "cooler master",
+                "count": 0
+            },
+            {
+                "term": "arctic",
+                "count": 3
+            }
+        ]
+    },
+    {
+        "token": "Power Supply",
+        "count": 8,
+        "inputs": [
+            {
+                "term": "650w",
+                "count": 1
+            },
+            {
+                "term": "750w",
+                "count": 2
+            },
+            {
+                "term": "850w",
+                "count": 1
+            },
+            {
+                "term": "1000w",
+                "count": 0
+            },
+            {
+                "term": "80+",
+                "count": 1
+            },
+            {
+                "term": "bronze",
+                "count": 0
+            },
+            {
+                "term": "gold",
+                "count": 0
+            },
+            {
+                "term": "platinum",
+                "count": 3
+            },
+            {
+                "term": "modular",
+                "count": 0
+            },
+            {
+                "term": "semi modular",
+                "count": 0
+            },
+            {
+                "term": "non modular",
+                "count": 0
+            },
+            {
+                "term": "corsair",
+                "count": 0
+            },
+            {
+                "term": "seasonic",
+                "count": 0
+            },
+            {
+                "term": "evga",
+                "count": 0
+            }
+        ]
+    },
+    {
+        "token": "RAM",
+        "count": 4,
+        "inputs": [
+            {
+                "term": "ddr4",
+                "count": 0
+            },
+            {
+                "term": "ddr5",
+                "count": 2
+            },
+            {
+                "term": "16gb",
+                "count": 0
+            },
+            {
+                "term": "32gb",
+                "count": 0
+            },
+            {
+                "term": "8gb",
+                "count": 0
+            },
+            {
+                "term": "3200mhz",
+                "count": 0
+            },
+            {
+                "term": "3600mhz",
+                "count": 0
+            },
+            {
+                "term": "5600mhz",
+                "count": 1
+            },
+            {
+                "term": "corsair",
+                "count": 0
+            },
+            {
+                "term": "gskill",
+                "count": 0
+            },
+            {
+                "term": "crucial",
+                "count": 0
+            },
+            {
+                "term": "kingston",
+                "count": 0
+            },
+            {
+                "term": "rgb",
+                "count": 0
+            },
+            {
+                "term": "cl16",
+                "count": 0
+            },
+            {
+                "term": "cl18",
+                "count": 0
+            }
+        ]
+    },
+    {
+        "token": "Storage",
+        "count": 1,
+        "inputs": [
+            {
+                "term": "ssd",
+                "count": 0
+            },
+            {
+                "term": "hdd",
+                "count": 0
+            },
+            {
+                "term": "nvme",
+                "count": 0
+            },
+            {
+                "term": "sata",
+                "count": 0
+            },
+            {
+                "term": "1tb",
+                "count": 0
+            },
+            {
+                "term": "2tb",
+                "count": 0
+            },
+            {
+                "term": "500gb",
+                "count": 1
+            },
+            {
+                "term": "4tb",
+                "count": 0
+            },
+            {
+                "term": "samsung",
+                "count": 0
+            },
+            {
+                "term": "wd",
+                "count": 0
+            },
+            {
+                "term": "seagate",
+                "count": 0
+            },
+            {
+                "term": "crucial",
+                "count": 0
+            },
+            {
+                "term": "980 pro",
+                "count": 0
+            },
+            {
+                "term": "blue",
+                "count": 0
+            },
+            {
+                "term": "black",
+                "count": 0
+            }
+        ]
+    },
+    {
+        "token": "Case",
+        "count": 0,
+        "inputs": [
+            {
+                "term": "mid tower",
+                "count": 0
+            },
+            {
+                "term": "full tower",
+                "count": 0
+            },
+            {
+                "term": "mini itx",
+                "count": 0
+            },
+            {
+                "term": "micro atx",
+                "count": 0
+            },
+            {
+                "term": "atx",
+                "count": 0
+            },
+            {
+                "term": "tempered glass",
+                "count": 0
+            },
+            {
+                "term": "rgb",
+                "count": 0
+            },
+            {
+                "term": "airflow",
+                "count": 0
+            },
+            {
+                "term": "nzxt",
+                "count": 0
+            },
+            {
+                "term": "corsair",
+                "count": 0
+            },
+            {
+                "term": "fractal design",
+                "count": 0
+            },
+            {
+                "term": "cooler master",
+                "count": 0
+            },
+            {
+                "term": "lian li",
+                "count": 0
+            },
+            {
+                "term": "white",
+                "count": 0
+            },
+            {
+                "term": "black",
+                "count": 0
+            }
+        ]
+    },
+    {
+        "token": "Monitor",
+        "count": 2,
+        "inputs": [
+            {
+                "term": "1080p",
+                "count": 0
+            },
+            {
+                "term": "1440p",
+                "count": 0
+            },
+            {
+                "term": "4k",
+                "count": 0
+            },
+            {
+                "term": "144hz",
+                "count": 0
+            },
+            {
+                "term": "165hz",
+                "count": 1
+            },
+            {
+                "term": "240hz",
+                "count": 0
+            },
+            {
+                "term": "60hz",
+                "count": 0
+            },
+            {
+                "term": "ips",
+                "count": 0
+            },
+            {
+                "term": "va",
+                "count": 0
+            },
+            {
+                "term": "tn",
+                "count": 0
+            },
+            {
+                "term": "oled",
+                "count": 0
+            },
+            {
+                "term": "27 inch",
+                "count": 1
+            },
+            {
+                "term": "24 inch",
+                "count": 0
+            },
+            {
+                "term": "32 inch",
+                "count": 0
+            },
+            {
+                "term": "ultrawide",
+                "count": 0
+            },
+            {
+                "term": "curved",
+                "count": 0
+            },
+            {
+                "term": "gsync",
+                "count": 0
+            },
+            {
+                "term": "freesync",
+                "count": 0
+            }
+        ]
+    },
+    {
+        "token": "Keyboard",
+        "count": 4,
+        "inputs": [
+            {
+                "term": "mechanical",
+                "count": 0
+            },
+            {
+                "term": "membrane",
+                "count": 0
+            },
+            {
+                "term": "wireless",
+                "count": 0
+            },
+            {
+                "term": "wired",
+                "count": 0
+            },
+            {
+                "term": "rgb",
+                "count": 0
+            },
+            {
+                "term": "blue switch",
+                "count": 0
+            },
+            {
+                "term": "red switch",
+                "count": 0
+            },
+            {
+                "term": "brown switch",
+                "count": 0
+            },
+            {
+                "term": "cherry mx",
+                "count": 0
+            },
+            {
+                "term": "logitech",
+                "count": 0
+            },
+            {
+                "term": "corsair",
+                "count": 0
+            },
+            {
+                "term": "razer",
+                "count": 0
+            },
+            {
+                "term": "steelseries",
+                "count": 0
+            },
+            {
+                "term": "tkl",
+                "count": 0
+            },
+            {
+                "term": "full size",
+                "count": 0
+            },
+            {
+                "term": "60%",
+                "count": 4
+            }
+        ]
+    },
+    {
+        "token": "Mouse",
+        "count": 0,
+        "inputs": [
+            {
+                "term": "gaming",
+                "count": 0
+            },
+            {
+                "term": "wireless",
+                "count": 0
+            },
+            {
+                "term": "wired",
+                "count": 0
+            },
+            {
+                "term": "rgb",
+                "count": 0
+            },
+            {
+                "term": "dpi",
+                "count": 0
+            },
+            {
+                "term": "ergonomic",
+                "count": 0
+            },
+            {
+                "term": "ambidextrous",
+                "count": 0
+            },
+            {
+                "term": "logitech",
+                "count": 0
+            },
+            {
+                "term": "razer",
+                "count": 0
+            },
+            {
+                "term": "steelseries",
+                "count": 0
+            },
+            {
+                "term": "corsair",
+                "count": 0
+            },
+            {
+                "term": "glorious",
+                "count": 0
+            },
+            {
+                "term": "lightweight",
+                "count": 0
+            },
+            {
+                "term": "sensor",
+                "count": 0
+            }
+        ]
+    },
+    {
+        "token": "Headset",
+        "count": 1,
+        "inputs": [
+            {
+                "term": "gaming",
+                "count": 0
+            },
+            {
+                "term": "wireless",
+                "count": 0
+            },
+            {
+                "term": "wired",
+                "count": 0
+            },
+            {
+                "term": "usb",
+                "count": 0
+            },
+            {
+                "term": "3.5mm",
+                "count": 1
+            },
+            {
+                "term": "surround sound",
+                "count": 0
+            },
+            {
+                "term": "noise cancelling",
+                "count": 0
+            },
+            {
+                "term": "microphone",
+                "count": 0
+            },
+            {
+                "term": "steelseries",
+                "count": 0
+            },
+            {
+                "term": "hyperx",
+                "count": 0
+            },
+            {
+                "term": "corsair",
+                "count": 0
+            },
+            {
+                "term": "razer",
+                "count": 0
+            },
+            {
+                "term": "sennheiser",
+                "count": 0
+            },
+            {
+                "term": "comfort",
+                "count": 0
+            }
+        ]
+    },
+    {
+        "token": "Speakers",
+        "count": 5,
+        "inputs": [
+            {
+                "term": "2.0",
+                "count": 0
+            },
+            {
+                "term": "2.1",
+                "count": 0
+            },
+            {
+                "term": "5.1",
+                "count": 1
+            },
+            {
+                "term": "bluetooth",
+                "count": 0
+            },
+            {
+                "term": "wired",
+                "count": 0
+            },
+            {
+                "term": "subwoofer",
+                "count": 0
+            },
+            {
+                "term": "bookshelf",
+                "count": 0
+            },
+            {
+                "term": "desktop",
+                "count": 0
+            },
+            {
+                "term": "logitech",
+                "count": 0
+            },
+            {
+                "term": "creative",
+                "count": 4
+            },
+            {
+                "term": "edifier",
+                "count": 0
+            },
+            {
+                "term": "klipsch",
+                "count": 0
+            },
+            {
+                "term": "rgb",
+                "count": 0
+            }
+        ]
+    },
+    {
+        "token": "Webcam",
+        "count": 1,
+        "inputs": [
+            {
+                "term": "1080p",
+                "count": 0
+            },
+            {
+                "term": "4k",
+                "count": 0
+            },
+            {
+                "term": "720p",
+                "count": 1
+            },
+            {
+                "term": "30fps",
+                "count": 0
+            },
+            {
+                "term": "60fps",
+                "count": 0
+            },
+            {
+                "term": "autofocus",
+                "count": 0
+            },
+            {
+                "term": "microphone",
+                "count": 0
+            },
+            {
+                "term": "logitech",
+                "count": 0
+            },
+            {
+                "term": "razer",
+                "count": 0
+            },
+            {
+                "term": "elgato",
+                "count": 0
+            },
+            {
+                "term": "streaming",
+                "count": 0
+            },
+            {
+                "term": "usb",
+                "count": 0
+            }
+        ]
+    },
+    {
+        "token": "Laptop",
+        "count": 28,
+        "inputs": [
+            {
+                "term": "gaming",
+                "count": 0
+            },
+            {
+                "term": "ultrabook",
+                "count": 0
+            },
+            {
+                "term": "business",
+                "count": 0
+            },
+            {
+                "term": "2-in-1",
+                "count": 0
+            },
+            {
+                "term": "chromebook",
+                "count": 0
+            },
+            {
+                "term": "13 inch",
+                "count": 0
+            },
+            {
+                "term": "14 inch",
+                "count": 0
+            },
+            {
+                "term": "15 inch",
+                "count": 1
+            },
+            {
+                "term": "16 inch",
+                "count": 0
+            },
+            {
+                "term": "17 inch",
+                "count": 1
+            },
+            {
+                "term": "intel",
+                "count": 0
+            },
+            {
+                "term": "amd",
+                "count": 0
+            },
+            {
+                "term": "ryzen",
+                "count": 5
+            },
+            {
+                "term": "core i5",
+                "count": 2
+            },
+            {
+                "term": "core i7",
+                "count": 1
+            },
+            {
+                "term": "core i9",
+                "count": 0
+            },
+            {
+                "term": "rtx 4060",
+                "count": 8
+            },
+            {
+                "term": "rtx 4070",
+                "count": 10
+            },
+            {
+                "term": "gtx 1650",
+                "count": 0
+            },
+            {
+                "term": "integrated graphics",
+                "count": 0
+            },
+            {
+                "term": "8gb ram",
+                "count": 0
+            },
+            {
+                "term": "16gb ram",
+                "count": 0
+            },
+            {
+                "term": "32gb ram",
+                "count": 0
+            },
+            {
+                "term": "512gb ssd",
+                "count": 0
+            },
+            {
+                "term": "1tb ssd",
+                "count": 0
+            },
+            {
+                "term": "touchscreen",
+                "count": 0
+            },
+            {
+                "term": "backlit keyboard",
+                "count": 0
+            },
+            {
+                "term": "fingerprint",
+                "count": 0
+            },
+            {
+                "term": "webcam",
+                "count": 0
+            },
+            {
+                "term": "wifi 6",
+                "count": 0
+            },
+            {
+                "term": "bluetooth",
+                "count": 0
+            },
+            {
+                "term": "usb-c",
+                "count": 0
+            },
+            {
+                "term": "thunderbolt",
+                "count": 0
+            },
+            {
+                "term": "hdmi",
+                "count": 0
+            },
+            {
+                "term": "battery life",
+                "count": 0
+            },
+            {
+                "term": "lightweight",
+                "count": 0
+            },
+            {
+                "term": "dell",
+                "count": 0
+            },
+            {
+                "term": "hp",
+                "count": 0
+            },
+            {
+                "term": "lenovo",
+                "count": 0
+            },
+            {
+                "term": "asus",
+                "count": 0
+            },
+            {
+                "term": "acer",
+                "count": 0
+            },
+            {
+                "term": "msi",
+                "count": 0
+            },
+            {
+                "term": "razer",
+                "count": 0
+            },
+            {
+                "term": "alienware",
+                "count": 0
+            },
+            {
+                "term": "thinkpad",
+                "count": 0
+            },
+            {
+                "term": "xps",
+                "count": 0
+            },
+            {
+                "term": "pavilion",
+                "count": 0
+            },
+            {
+                "term": "ideapad",
+                "count": 0
+            },
+            {
+                "term": "vivobook",
+                "count": 0
+            },
+            {
+                "term": "rog",
+                "count": 0
+            },
+            {
+                "term": "predator",
+                "count": 0
+            },
+            {
+                "term": "budget",
+                "count": 0
+            },
+            {
+                "term": "premium",
+                "count": 0
+            },
+            {
+                "term": "student",
+                "count": 0
+            },
+            {
+                "term": "work",
+                "count": 0
+            },
+            {
+                "term": "portable",
+                "count": 0
+            }
+        ]
+    }
+]
