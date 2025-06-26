@@ -6,27 +6,29 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-print("✅ FastAPI app instance created")
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://127.0.0.1:3000",  # for local frontend dev
-        "https://egypt-tech-finder.netlify.app"  # for production Netlify
+        "https://egypt-tech-finder.vercel.app/"  # for production Netlify
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-@app.get("/")
-def sanity_check():
-    return {"status": "running"}
+
+
+
 
 @app.get("/search/{product}")
-def search(product: str):
+def search(product:str):
     return main_processing(product)
+    
+
 
 @app.get("/trending")
 def trending():
     return get_most_searched()
+
+
