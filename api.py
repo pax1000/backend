@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from main import main_processing
-import json
+from database import get_most_searched
 
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -25,8 +25,6 @@ def search(product:str):
 
 @app.get("/trending")
 def trending():
-    with open('most_searched.json', 'r', encoding='utf8') as file:
-        used_tokens = json.load(file)
-    return used_tokens
+    return get_most_searched()
 
 

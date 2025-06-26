@@ -1,7 +1,7 @@
 [
     {
         "token": "CPU",
-        "count": 9,
+        "count": 10,
         "inputs": [
             {
                 "term": "am5",
@@ -33,7 +33,7 @@
             },
             {
                 "term": "ryzen",
-                "count": 5
+                "count": 6
             },
             {
                 "term": "intel",
@@ -55,7 +55,7 @@
     },
     {
         "token": "Motherboard",
-        "count": 35,
+        "count": 39,
         "inputs": [
             {
                 "term": "am5",
@@ -95,11 +95,11 @@
             },
             {
                 "term": "x",
-                "count": 15
+                "count": 18
             },
             {
                 "term": "z",
-                "count": 5
+                "count": 6
             },
             {
                 "term": "h",
@@ -109,11 +109,11 @@
     },
     {
         "token": "GPU",
-        "count": 23,
+        "count": 33,
         "inputs": [
             {
                 "term": "rtx",
-                "count": 2
+                "count": 4
             },
             {
                 "term": "rx",
@@ -137,15 +137,15 @@
             },
             {
                 "term": "4070",
-                "count": 4
+                "count": 6
             },
             {
                 "term": "4070 ti",
-                "count": 4
+                "count": 6
             },
             {
                 "term": "4070 super",
-                "count": 8
+                "count": 10
             },
             {
                 "term": "4080",
@@ -173,11 +173,11 @@
             },
             {
                 "term": "3060",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "3060 ti",
-                "count": 3
+                "count": 4
             },
             {
                 "term": "3070",
@@ -285,7 +285,7 @@
     },
     {
         "token": "Power Supply",
-        "count": 8,
+        "count": 9,
         "inputs": [
             {
                 "term": "650w",
@@ -623,7 +623,7 @@
     },
     {
         "token": "Keyboard",
-        "count": 4,
+        "count": 6,
         "inputs": [
             {
                 "term": "mechanical",
@@ -687,7 +687,7 @@
             },
             {
                 "term": "60%",
-                "count": 4
+                "count": 6
             }
         ]
     },
@@ -929,7 +929,7 @@
     },
     {
         "token": "Laptop",
-        "count": 28,
+        "count": 61,
         "inputs": [
             {
                 "term": "gaming",
@@ -981,27 +981,27 @@
             },
             {
                 "term": "ryzen",
-                "count": 5
+                "count": 6
             },
             {
                 "term": "core i5",
-                "count": 2
+                "count": 11
             },
             {
                 "term": "core i7",
-                "count": 1
+                "count": 10
             },
             {
                 "term": "core i9",
-                "count": 0
+                "count": 9
             },
             {
                 "term": "rtx 4060",
-                "count": 8
+                "count": 10
             },
             {
                 "term": "rtx 4070",
-                "count": 10
+                "count": 13
             },
             {
                 "term": "gtx 1650",

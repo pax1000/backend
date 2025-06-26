@@ -1,6 +1,7 @@
 from thefuzz import  process 
 import json
 import logging
+from database import most_searched
 
 with open('used_token.json', 'r', encoding='utf8') as f:
     used_tokens = json.load(f)
@@ -26,6 +27,7 @@ def update_token_and_terms(search):
                 json.dump(used_tokens, f,indent=4)
         else :    
             logging.info('reqire new scraping')
+        most_searched(search)
         return  search 
     except Exception as e:
         logging.ERROR(f'thier was an error as {e}')

@@ -140,14 +140,12 @@ curl http://127.0.0.1:8000/trending
 ├── database.py           # MySQL database operations
 ├── searching.py          # Search analytics and fuzzy matching
 ├── requirements.txt      # Python dependencies
-├── most_searched.json    # Trending products data
 ├── used_token.json      # Search term analytics
 └── README.md            # Project documentation
 ```
 
 ## Configuration Files
 
-### most_searched.json
 Tracks popular product searches with their counts:
 ```json
 [

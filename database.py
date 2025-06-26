@@ -38,3 +38,46 @@ def get_data(product_name):
         return results
     except Exception as e:
         logging.error(f'there was an error connecting to the database as {e}')
+
+
+def most_searched(searched):
+    try:
+        # Connect to MySQL database
+        db = mysql.connector.connect(
+            host=os.getenv('DB_HOST'),
+            user=os.getenv('DB_USER'),
+            passwd=os.getenv('DB_PASS'),
+            database=os.getenv('DB_NAME')
+        )
+        mycursor = db.cursor()
+        query = "INSERT INTO most_searched (product_name, search_count) VALUES (%s, %s) ON DUPLICATE KEY UPDATE search_count = search_count + 1"
+        mycursor.execute(query, (searched, 1))
+        db.commit()
+        # Close connection 
+        db.close()
+        logging.info('✅ Finished querying database')
+    except Exception as e:
+        logging.error(f'there was an error connecting to the database as {e}')
+
+
+def get_most_searched():
+    logging.info('🔍searching from database...')
+    try:
+        # Connect to MySQL database
+        db = mysql.connector.connect(
+            host=os.getenv('DB_HOST'),
+            user=os.getenv('DB_USER'),
+            passwd=os.getenv('DB_PASS'),
+            database=os.getenv('DB_NAME')
+        )
+        mycursor = db.cursor(dictionary=True)
+        # Query products with partial match and order by price (numerically)
+        query = "SELECT product_name, search_count FROM most_searched"
+        mycursor.execute(query)
+        results = mycursor.fetchall()
+        # Close connection and return results
+        db.close()
+        logging.info('✅ Finished querying database')
+        return results
+    except Exception as e:
+        logging.error(f'there was an error connecting to the database as {e}')
