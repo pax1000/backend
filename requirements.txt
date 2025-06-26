@@ -1,4 +1,3 @@
-seleniumbase
 fastapi
 uvicorn[standard]
 gunicorn

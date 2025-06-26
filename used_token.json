@@ -1,7 +1,7 @@
 [
     {
         "token": "CPU",
-        "count": 2,
+        "count": 9,
         "inputs": [
             {
                 "term": "am5",
@@ -13,27 +13,27 @@
             },
             {
                 "term": "lga1700",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "7700",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "7800",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "12400",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "12700",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "ryzen",
-                "count": 4
+                "count": 5
             },
             {
                 "term": "intel",
@@ -49,13 +49,13 @@
             },
             {
                 "term": "f",
-                "count": 0
+                "count": 1
             }
         ]
     },
     {
         "token": "Motherboard",
-        "count": 30,
+        "count": 35,
         "inputs": [
             {
                 "term": "am5",
@@ -67,7 +67,7 @@
             },
             {
                 "term": "lga1700",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "b650",
@@ -75,7 +75,7 @@
             },
             {
                 "term": "x670",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "b550",
@@ -95,11 +95,11 @@
             },
             {
                 "term": "x",
-                "count": 13
+                "count": 15
             },
             {
                 "term": "z",
-                "count": 4
+                "count": 5
             },
             {
                 "term": "h",
@@ -109,11 +109,11 @@
     },
     {
         "token": "GPU",
-        "count": 13,
+        "count": 23,
         "inputs": [
             {
                 "term": "rtx",
-                "count": 1
+                "count": 2
             },
             {
                 "term": "rx",
@@ -137,15 +137,15 @@
             },
             {
                 "term": "4070",
-                "count": 2
+                "count": 4
             },
             {
                 "term": "4070 ti",
-                "count": 2
+                "count": 4
             },
             {
                 "term": "4070 super",
-                "count": 7
+                "count": 8
             },
             {
                 "term": "4080",
@@ -157,7 +157,7 @@
             },
             {
                 "term": "4090",
-                "count": 4
+                "count": 5
             },
             {
                 "term": "4060",
@@ -181,11 +181,11 @@
             },
             {
                 "term": "3070",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "3070 ti",
-                "count": 3
+                "count": 4
             },
             {
                 "term": "3080",
@@ -213,7 +213,7 @@
             },
             {
                 "term": "6700",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "6800",
@@ -285,7 +285,7 @@
     },
     {
         "token": "Power Supply",
-        "count": 6,
+        "count": 8,
         "inputs": [
             {
                 "term": "650w",
@@ -293,7 +293,7 @@
             },
             {
                 "term": "750w",
-                "count": 1
+                "count": 2
             },
             {
                 "term": "850w",
@@ -305,7 +305,7 @@
             },
             {
                 "term": "80+",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "bronze",
@@ -545,7 +545,7 @@
     },
     {
         "token": "Monitor",
-        "count": 1,
+        "count": 2,
         "inputs": [
             {
                 "term": "1080p",
@@ -593,7 +593,7 @@
             },
             {
                 "term": "27 inch",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "24 inch",
@@ -875,7 +875,7 @@
     },
     {
         "token": "Webcam",
-        "count": 0,
+        "count": 1,
         "inputs": [
             {
                 "term": "1080p",
@@ -887,7 +887,7 @@
             },
             {
                 "term": "720p",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "30fps",
@@ -929,7 +929,7 @@
     },
     {
         "token": "Laptop",
-        "count": 21,
+        "count": 28,
         "inputs": [
             {
                 "term": "gaming",
@@ -969,7 +969,7 @@
             },
             {
                 "term": "17 inch",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "intel",
@@ -981,15 +981,15 @@
             },
             {
                 "term": "ryzen",
-                "count": 4
+                "count": 5
             },
             {
                 "term": "core i5",
-                "count": 1
+                "count": 2
             },
             {
                 "term": "core i7",
-                "count": 0
+                "count": 1
             },
             {
                 "term": "core i9",
@@ -997,11 +997,11 @@
             },
             {
                 "term": "rtx 4060",
-                "count": 7
+                "count": 8
             },
             {
                 "term": "rtx 4070",
-                "count": 8
+                "count": 10
             },
             {
                 "term": "gtx 1650",

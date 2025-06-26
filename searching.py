@@ -1,11 +1,9 @@
-from data_collection import merging_data
-from thefuzz import  process
+from thefuzz import  process 
 import json
 import logging
 
-
-with open('used_token.json', 'r', encoding='utf8') as file:
-    used_tokens = json.load(file)
+with open('used_token.json', 'r', encoding='utf8') as f:
+    used_tokens = json.load(f)
 
 
 def update_token_and_terms(search):
@@ -23,16 +21,14 @@ def update_token_and_terms(search):
                     tokens['count'] = tokens['count'] + 1
                     input['count'] = input['count'] +1
                     found = True
-        with open("used_token.json", "w") as file:
-            json.dump(used_tokens, file,indent=4)
-        if not found:
-           return found, merging_data(search)
-            
-        else: 
-            return found ,search 
+        if  found:
+            with open("used_token.json", "w") as f:
+                json.dump(used_tokens, f,indent=4)
+        else :    
+            logging.info('reqire new scraping')
+        return  search 
     except Exception as e:
         logging.ERROR(f'thier was an error as {e}')
-
 
 
 
