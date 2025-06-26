@@ -8,11 +8,15 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:3000"],
+    allow_origins=[
+        "http://127.0.0.1:3000",  # for local frontend dev
+        "https://egypt-tech-finder.netlify.app"  # for production Netlify
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 
 
