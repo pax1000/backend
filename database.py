@@ -51,7 +51,7 @@ def get_most_searched():
             database=os.getenv('DB_NAME')
         )
         mycursor = db.cursor(dictionary=True)
-        query = "SELECT product_name, search_count FROM most_searched"
+        query = "SELECT product_name, search_count FROM most_searched ORDER BY search_count DESC"
         mycursor.execute(query)
         results = mycursor.fetchall()
         db.close()
