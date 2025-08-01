@@ -15,7 +15,7 @@ def get_data(product_name):
         words = product_name.lower().split()
         conditions = " AND ".join(["LOWER(title) LIKE %s" for _ in words])
         params = [f"%{word}%" for word in words]
-        query = f"SELECT * FROM products_info WHERE {conditions}"
+        query = f"SELECT * FROM products_info WHERE {conditions} AND in_stock = 1"
         mycursor.execute(query, params)
         results = mycursor.fetchall()
         db.close()
